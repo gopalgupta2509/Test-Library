@@ -82,8 +82,8 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'com.github.gopalgupta2509'
-            artifactId = 'Notification-SDK'
-            version = "1.0.1"
+            artifactId = 'Test-Library'
+            version = "1.0.0"
             pom {
                 description = 'Android Library Update'
             }
