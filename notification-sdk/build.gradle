@@ -29,7 +29,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    /*java {
+    java {
         toolchain {
             languageVersion = JavaLanguageVersion.of(17)        // << --- ADD This
         }
@@ -38,7 +38,7 @@ android {
     java {
         sourceCompatibility = JavaVersion.VERSION_17            // << --- ADD This
         targetCompatibility = JavaVersion.VERSION_17
-    }*/
+    }
     kotlinOptions {
         jvmTarget = '1.8'
     }
